@@ -1,0 +1,7 @@
+[user]
+	name = RSL
+	email = sconds@gmail.com
+[color]
+	ui = true
+[credential]
+	helper = osxkeychain
