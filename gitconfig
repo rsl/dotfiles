@@ -7,3 +7,5 @@
 	helper = osxkeychain
 [push]
 	default = current
+[github]
+	user = rsl
