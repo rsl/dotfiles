@@ -9,3 +9,8 @@
 	default = current
 [github]
 	user = rsl
+[mergetool]
+	keepBackup = true
+[core]
+	autocrlf = input
+	safecrlf = true
