@@ -12,5 +12,7 @@
 [mergetool]
 	keepBackup = true
 [core]
-	autocrlf = input
+	autocrlf = false
 	safecrlf = true
+[help]
+	autocorrect = 1
