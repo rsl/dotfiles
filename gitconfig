@@ -16,3 +16,5 @@
 	safecrlf = true
 [help]
 	autocorrect = 1
+[alias]
+	co = checkout

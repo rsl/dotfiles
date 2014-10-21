@@ -9,4 +9,8 @@ source ~/.bash_exports
 
 # chruby!
 source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby ruby-2.1.1
+chruby ruby-2.1.2
+source /usr/local/share/chruby/auto.sh
+
+# added by travis gem
+[ -f /Users/rsl/.travis/travis.sh ] && source /Users/rsl/.travis/travis.sh
