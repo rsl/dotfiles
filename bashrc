@@ -9,8 +9,15 @@ source ~/.bash_exports
 
 # chruby!
 source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby ruby-2.1.2
+chruby 2.1.5
 source /usr/local/share/chruby/auto.sh
+
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+fi
 
 # added by travis gem
 [ -f /Users/rsl/.travis/travis.sh ] && source /Users/rsl/.travis/travis.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
