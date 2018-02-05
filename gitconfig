@@ -14,11 +14,9 @@
 [core]
 	autocrlf = false
 	safecrlf = true
-	editor = subl -n -w
+	editor = subl --wait
 [help]
 	autocorrect = 1
 [alias]
 	co = checkout
 	cp = cherry-pick
-[merge]
-	ff = no
