@@ -9,7 +9,6 @@ source ~/.bash_exports
 
 # chruby!
 source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby 2.1.3
 source /usr/local/share/chruby/auto.sh
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
