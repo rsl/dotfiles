@@ -14,9 +14,12 @@
 [core]
 	autocrlf = false
 	safecrlf = true
-	editor = subl --wait
+	editor = sublime --wait
+	excludesfile = ~/.gitignore
 [help]
 	autocorrect = 1
 [alias]
 	co = checkout
 	cp = cherry-pick
+[rerere]
+	enabled = true
