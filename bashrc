@@ -1,4 +1,4 @@
-PATH=/usr/local/bin:$HOME/.bin:/usr/local/sbin:$PATH
+PATH=/usr/local/opt/imagemagick@6/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:$HOME/.bin:/usr/local/sbin:/usr/local/opt/elasticsearch@5.6/bin:$PATH
 PS1="\e[0;37m\u@\h:\e[0;92m\w\$(git branch 2>/dev/null | grep -e '\* ' | sed 's/^..\(.*\)/ \e[0;95m\1 /')\e[0m\n\$ "
 
 # Aliases [which might not make sense on other machines or need to be private]

@@ -15,9 +15,11 @@
 	autocrlf = false
 	safecrlf = true
 	editor = sublime --wait
-	excludesfile = /Users/rsl/.gitignore
+	excludesfile = ~/.gitignore
 [help]
 	autocorrect = 1
 [alias]
 	co = checkout
 	cp = cherry-pick
+[rerere]
+	enabled = true
