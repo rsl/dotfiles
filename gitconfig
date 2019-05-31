@@ -14,7 +14,8 @@
 [core]
 	autocrlf = false
 	safecrlf = true
-	editor = subl --wait
+	editor = sublime --wait
+	excludesfile = /Users/rsl/.gitignore
 [help]
 	autocorrect = 1
 [alias]
